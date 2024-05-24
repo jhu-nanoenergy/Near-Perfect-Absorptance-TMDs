@@ -4,9 +4,6 @@ May 2024
 
 In this repository, we provide the data associated with the aforementioned paper. Referring to the paper figure by figure, the files correspond to the following:
 
-Fig. 1: Fabry_Perot.mat
-This contains data corresponding to the study of the Fabry-Perot structure. The RT cell array in the file contains 201 structs corresponding to different cavity thicknesses, and each contains the amplitude and power coefficients.
-
 Fig. 2, 4: Modeling_b_350_w_0_20_100.mat, Modeling_b_350_w_125_25_175.mat, Modeling_b_350_w_200_25_225.mat, Modeling_b_350_w_250_20_350.mat, Modeling_b_400_w_0_20_100.mat, Modeling_b_400_w_140_40_180.mat, Modeling_b_400_w_220_40_260.mat, Modeling_b_400_w_300_20_400.mat 
 These contain the study of the modal hybridizations. The naming convention is b_ followed by the value of the period in nm, and then w_ followed by the start, increment, and stop value (all inclusive) in the width sweep.
 Each power monitor (Refl, Trans_abs, Trans_ext) contains the wavelength and frequency information (under lambda and f respectively), and also the power coefficient associated with the labeled quantity under T.
